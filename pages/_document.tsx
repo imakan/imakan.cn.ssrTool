@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="imakan520" />
           <meta name="twitter:title" content="imakan!小栈 " />
           <meta name="twitter:description" content="imakan - 工具站" />
-          <style>{`body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}`}</style>
+          <style>{`body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ant-layout{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;}`}</style>
         </Head>
         <body className="imakan">
           <Main />

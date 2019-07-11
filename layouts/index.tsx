@@ -21,7 +21,6 @@ class BasicLayout extends React.Component<LayoutProps, any> {
       <>
         <Head>
           <title>imakan - 工具站</title>
-          <link rel="stylesheet" href="/static/css/reset.css"/>
         </Head>
         <Layout>
           <Sider
