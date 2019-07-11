@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React, { Component } from 'react';
 import IconFont from '../../components/IconFont';
 import menuList from './menuList';
-
 interface MenuItem {
   path: string;
   title: string;
