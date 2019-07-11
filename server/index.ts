@@ -7,7 +7,7 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dir: '.', dev });
 const handle: any = app.getRequestHandler();
 const ssrCache = cacheableResponse({
-  ttl: 12 * 60 * 60 * 365,
+  ttl: 0 * 60 * 60 * 365,
   get: async ({ req, res, pagePath, queryParams }: any) => ({
     data: await app.renderToHTML(req, res, pagePath, queryParams)
   }),
