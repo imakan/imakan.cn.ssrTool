@@ -4,7 +4,7 @@ import express from 'express';
 import next from 'next';
 const port = parseInt(process.env.PORT || '18002', 10);
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dir: '.', dev });
+const app = next({ dev });
 const handle: any = app.getRequestHandler();
 const ssrCache = cacheableResponse({
   ttl: 12 * 60 * 60 * 7,
