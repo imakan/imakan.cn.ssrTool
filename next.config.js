@@ -1,6 +1,5 @@
 const withCss = require('@zeit/next-css');
-let path = require('path');
-let assetPrefix = '/tools';
+let assetPrefix = '/';
 module.exports = withCss({
   assetPrefix,
   generateEtags: false,

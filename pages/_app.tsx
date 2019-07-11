@@ -13,10 +13,8 @@ export default class MyApp extends App {
     }
     return { pageProps };
   }
-
   public render () {
     const { Component, pageProps } = this.props;
-    // console.log(router.);
     return (
       <Container>
         <BasicLayout pathname={pageProps.pathname}>

@@ -14,18 +14,17 @@ interface MenuItem {
 const renderMenuItem = (item: MenuItem) => {
   return (
     <AntMenu.Item key={item.path}>
-      <Link href={{ pathname: item.redirect || item.path }}>
-        <>
+      <Link href={item.redirect || item.path} prefetch>
+        <a>
           {item.icon && <IconFont type={item.icon} />}
           <span className="nav-text">{item.title}</span>
-        </>
+        </a>
       </Link>
     </AntMenu.Item>
   );
 };
-
 class BaseMenu extends Component<any> {
-  public render () {
+  public render() {
     return (
       <AntMenu {...this.props}>
         {menuList.map((item) => {
