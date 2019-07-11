@@ -8,7 +8,7 @@ console.log(dev);
 const app = next({ dev });
 const handle: any = app.getRequestHandler();
 const ssrCache = cacheableResponse({
-  ttl: 0 * 60 * 60 * 7,
+  ttl: 12 * 60 * 60 * 3,
   get: async ({ req, res, pagePath, queryParams }: any) => ({
     data: await app.renderToHTML(req, res, pagePath, queryParams)
   }),
