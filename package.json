@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "rm -rf dist && next build && tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node dist/index.js"
+    "start": "cross-env NODE_ENV=prod && pm2 start ./pm2.config.js"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

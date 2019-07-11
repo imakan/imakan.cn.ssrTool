@@ -4,7 +4,7 @@ module.exports = {
       name: 'tool',
       script: './dist/index.js',
       instances: '1',
-      vizion: true,
+      vizion: false,
       env: {
         PORT: '18002',
         NODE_ENV: 'prod',
