@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var urlToList = function urlToList(url) {\n  var urllist = url.split('/').filter(function (i) {\n    return i;\n  });\n  return urllist.map(function (_, index) {\n    return \"/\".concat(urllist.slice(0, index + 1).join('/'));\n  });\n};","map":null,"metadata":{},"sourceType":"module"}
