@@ -7,7 +7,7 @@ module.exports = {
       vizion: true,
       env: {
         PORT: '18002',
-        NODE_ENV: 'prod',
+        NODE_ENV: 'production',
         DEBUG: false
       }
     }
