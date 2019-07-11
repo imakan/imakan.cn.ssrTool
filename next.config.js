@@ -4,9 +4,6 @@ module.exports = withCss({
   assetPrefix,
   generateEtags: false,
   distDir: 'dist',
-  generateBuildId: () => {
-    return 'tools';
-  },
   publicRuntimeConfig: {
     assetPrefix
   },
