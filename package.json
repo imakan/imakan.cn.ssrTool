@@ -11,7 +11,7 @@
     "antd": "^3.20.1",
     "cacheable-response": "^1.6.12",
     "express": "^4.17.1",
-    "next": "^9.0.0",
+    "next": "^11.1.3",
     "node-sass": "^4.12.0",
     "null-loader": "^3.0.0",
     "react": "^16.8.6",
